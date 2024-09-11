@@ -1,0 +1,122 @@
+span{
+    font-size: 15px;
+    padding-left: 7px;
+
+}
+.acc-list li{
+    border: 1px solid rgb(216, 208, 208);
+    padding:10px;
+    width:350px;
+    position: relative;
+    left: 113px;
+    top: 61px;
+    list-style: none;
+    
+}
+.acc-list li:hover{
+    color: white !important;
+    background-color:hsla(149, 84%, 31%, 0.694) ;
+}
+
+.list-2{
+    display: flex;
+}
+.rosle h3{
+    border: 1px solid rgb(241, 229, 229);
+    padding: 12px;
+    background-color: rgb(179, 169, 169);
+    width: 800px;
+    position: relative;
+    left: 185px;
+    top: 59px;
+    
+}
+.rosle p{
+    border: 1px solid rgb(246, 239, 239) ;
+    padding: 12px;
+    width: 800px;
+    position: relative;
+    left: 185px;
+    top: 59px;
+}
+.email-imp{
+    position: relative;
+    top:109px;
+}
+footer{
+    position: relative;
+    top:80px;
+}
+.home-account{
+    border: 1px solid rgb(179, 169, 169);
+    background-color: rgb(179, 169, 169) ;
+    height:50px
+
+}
+.home-account p{
+    position: relative;
+    left:70px;
+    top:15px;
+    width:200px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .list-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer .footer1{
+        position: relative;
+        top: 30px;
+    }
+    .acc-list{
+        position: relative;
+    right: 100px;
+    top: -51px
+    }
+    .acc-list li{
+        width: 300px;
+    }
+    .rosle h3{
+        width: 300px;
+    }
+    .rosle p{
+        width: 300px;
+    }
+    .rosle{
+        position: relative;
+        right:170px;
+    }
+    .account{
+        position: relative;
+    top: 67px;
+    }
+    
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .list-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .acc-list{
+        /* text-align: center; */
+        position: relative;
+    right: 100px;
+    top: -51px
+    }
+    .acc-list li{
+        width: 600px;
+    }
+    .rosle h3{
+        width: 600px;
+    }
+    .rosle p{
+        width: 600px;
+    }
+    .rosle{
+        position: relative;
+        right:170px;
+    }
+
+}
